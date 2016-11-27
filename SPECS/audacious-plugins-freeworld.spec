@@ -5,7 +5,7 @@
 
 Name:           audacious-plugins-freeworld
 Version:        3.5
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Additional plugins for the Audacious media player
 
 Group:          Applications/Multimedia
@@ -135,6 +135,9 @@ find $RPM_BUILD_ROOT -type f -name "*.la" -exec rm -f {} ';'
 
 
 %changelog
+* Sat Nov 26 2016 Ricardo Arguello <rarguello@deskosproject.org> - 3.5-3
+- Rebuilt for DeskOS
+
 * Wed Jul 29 2015 Nux <nux@li.nux.ro> - 3.5-2
 - Rebuild against newer ffmpeg
 
